@@ -1,6 +1,8 @@
+
 *{
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 }
 body{
     font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
@@ -51,9 +53,9 @@ header a:hover{
     color: #333;
     right: 80px;
 }
-.buscar input{
-    padding-left: 10px;
-    padding-bottom: 2px;
+.buscar input{ padding: 20px;
+
+
     width: 250px;
     height: 30px;
     color: #000;
@@ -71,6 +73,7 @@ header a:hover{
 .btn i{
     text-align: center;
     color: rgb(160, 160, 160);
+    margin-top: 7px;
     font-size: 20px;
     cursor: context-menu;
 }
@@ -106,7 +109,7 @@ header a:hover{
 .nav > li{
     float: left;
 }
-ul{
+nav ul{
     list-style: none;
 }
 .nav li ul{
@@ -132,16 +135,83 @@ ul{
     background-color: #F8F9F9;
     padding: 2px 0px;
 }
+/*Etiquetas de promociones*/
 .ctn-promociones{
     background-color: #000;
     color: #fff;
     text-align: center;
     text-transform: uppercase;
-    padding: 5px 5px;
+    padding: 15px 5px;
     font-weight: bolder;
     font-size: 13px;
 }
 .ctn-promociones a {
     color: #fff;
     text-decoration: none;
+}
+/* Carrousel de imagenes
+.carrousel{
+    width: 90%;
+    max-width: 120em;
+    background-color: lightskyblue;
+}
+.ctn-img{
+    width: 300%;
+    background-color: orange;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.carrousel img{
+    width: calc( 100% / 3);
+    background-color: lime;
+}
+.carrousel .puntos{
+    width: 100%;
+    background-color: red;
+    padding: 1em;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.carrousel .punto{
+    width: 2em;
+    height: 2em;
+    background-color: blue;
+    margin: 1em;
+} */
+.slider{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+.slider_images{
+    position: relative;
+    left: 0px;
+    transition: all .5s;
+}
+.slider_navigation{
+    position: relative;
+    bottom: 45px;
+    height: 20px;
+    width: 10%;
+    margin: 1em auto;
+    display: flex;
+    justify-content: center;
+}
+
+.slider-nav{
+    width: 10px;
+    height: 10px;
+    margin-left: 5px;
+    background: #D6D6D6 ;
+    border-radius: 50%;
+}
+.slider-nav:hover{
+    background-color: #000;
+}
+.slider-nav-active{
+    background-color: #000;
 }

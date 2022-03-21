@@ -1,0 +1,147 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+/*header*/
+.encabezado{
+    width: 100%;
+    position: relative;
+    font-size: 13px;
+    background-color: #D12127;
+    padding: 8px 20px 0 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo{
+    padding-left: 30px;
+    padding-bottom: 30px;
+    width: 18%;
+}
+.trip,.opciones,header li, .buscar{
+    display: inline-block;
+}
+.opciones{
+    position: absolute;
+    margin-left: 706px;
+    right: 50px;
+}
+header li{
+    margin: 0 0 0 20px;
+    color: #ffffff;
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+header a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.contenido{
+    position: relative;
+    padding-top:10px ;
+    background: #D12127;
+}
+.buscar{
+    position: absolute;
+    padding: 5px;
+    color: #333;
+    right: 80px;
+}
+.buscar input{
+    padding-left: 10px;
+    padding-bottom: 2px;
+    width: 250px;
+    height: 30px;
+    color: #000;
+    outline: none;
+}
+.btn{
+    position: absolute;
+    right: 0;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+
+}
+.btn i{
+    text-align: center;
+    color: rgb(160, 160, 160);
+    font-size: 20px;
+    cursor: context-menu;
+}
+.btn i:hover{
+    color: #000;
+    cursor: pointer;
+}
+.btn-cart a{
+    text-align: center;
+    top: 0px;
+}
+.btn-cart{
+    position: absolute;
+    margin-top: 2px;
+    right: 35px;
+    display: inline;
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+}
+
+.nav li a{
+    font-size: 15px;
+    background: #F8F9F9;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 15px;
+    display: block;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.nav > li{
+    float: left;
+}
+ul{
+    list-style: none;
+}
+.nav li ul{
+    display: none;
+    position: absolute;
+}
+.nav li:hover >ul{
+    display: block;
+}
+.nav li> a:hover{
+    background-color: #E5E7E9 ;
+}
+#btp{
+    color: #5D6D7E ;
+    width: 100%;
+    font-weight: bold;
+}
+#btp:hover{
+    background-color: #fff;
+    color: #000;
+}
+.conteiner-nav{
+    background-color: #F8F9F9;
+    padding: 2px 0px;
+}
+.ctn-promociones{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px 5px;
+    font-weight: bolder;
+    font-size: 13px;
+}
+.ctn-promociones a {
+    color: #fff;
+    text-decoration: none;
+}

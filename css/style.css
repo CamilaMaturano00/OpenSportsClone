@@ -27,7 +27,6 @@ body{
 }
 .opciones{
     position: absolute;
-    margin-left: 706px;
     right: 50px;
 }
 header li{
@@ -113,8 +112,9 @@ nav ul{
     list-style: none;
 }
 .nav li ul{
+    z-index: 1;
     display: none;
-    position: absolute;
+    position:absolute;
 }
 .nav li:hover >ul{
     display: block;
@@ -188,6 +188,7 @@ nav ul{
     overflow: hidden;
 }
 .slider_images{
+    top: 20px;
     position: relative;
     left: 0px;
     transition: all .5s;

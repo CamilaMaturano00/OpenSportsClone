@@ -1,4 +1,4 @@
-let images = ['img/os-boca.jpg','img/kr5_bannerdesktop_ok.jpg','img/__banner__create_netx_open_sports_1366x600_cta.jpg'];
+let images = ['img/os-boca.jpg','img/kr5_bannerdesktop_ok.jpg','img/banner3.jpg'];
 
 //Elemento para cargar el slide
 let slider = document.getElementById("slider-js");

@@ -92,17 +92,15 @@ header a:hover{
     font-size: 28px;
     color: rgb(255, 255, 255);
 }
-
+/*nav*/
 .nav li a{
     font-size: 15px;
     background: #F8F9F9;
     color: #000;
     text-decoration: none;
-    text-align: center;
     padding: 10px 15px;
     display: block;
     font-family: 'Lato', sans-serif;
-
 }
 
 .nav > li{
@@ -149,39 +147,7 @@ nav ul{
     color: #fff;
     text-decoration: none;
 }
-/* Carrousel de imagenes
-.carrousel{
-    width: 90%;
-    max-width: 120em;
-    background-color: lightskyblue;
-}
-.ctn-img{
-    width: 300%;
-    background-color: orange;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-start;
-    align-items: center;
-}
-.carrousel img{
-    width: calc( 100% / 3);
-    background-color: lime;
-}
-.carrousel .puntos{
-    width: 100%;
-    background-color: red;
-    padding: 1em;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-start;
-    align-items: center;
-}
-.carrousel .punto{
-    width: 2em;
-    height: 2em;
-    background-color: blue;
-    margin: 1em;
-} */
+/* Slider de imagenes*/
 .slider{
     width: 90%;
     margin: auto;
@@ -195,7 +161,7 @@ nav ul{
 }
 .slider_navigation{
     position: relative;
-    bottom: 45px;
+    bottom: 25px;
     height: 20px;
     width: 10%;
     margin: 1em auto;

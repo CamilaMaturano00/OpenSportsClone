@@ -19,7 +19,7 @@ let active = true;
 for(let img in images){
     
     //Cargar imágenes
-    slider.innerHTML += `<img src="${images[img]}" class="slider_img" style="width: ${100/images.length}%">`;
+    slider.innerHTML += `<a href=""><img src="${images[img]}" class="slider_img" style="width: ${100/images.length}%"></a>`;
     
     //Cargar navegación
     sliderNav.innerHTML += `<span class="${img==0 ? 'slider-nav slider-nav-active' : 'slider-nav'}" id="slider-nav-${img}">`;

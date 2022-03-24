@@ -147,9 +147,9 @@ nav ul{
     color: #fff;
     text-decoration: none;
 }
-/* Slider de imagenes*/
+/* Slider de imagenes principales*/
 .slider{
-    width: 90%;
+    width: 92%;
     margin: auto;
     overflow: hidden;
 }
@@ -182,3 +182,61 @@ nav ul{
 .slider-nav-active{
     background-color: #000;
 }
+.ctn-novedades h1{
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Slider de modelos de zatillas*/
+.slider-mod{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+.slider_images_modelos{
+    width: 100%;
+    top: 20px;
+    position: relative;
+    left: 0px;
+    transition: all .5s;
+}
+.slider_zapatillas{
+    height: 20px;
+    width: 100%;
+    margin: 1em auto;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.slider-zap{
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+    background: #D6D6D6 ;
+    border-radius: 50%;
+
+}
+.slider-zap:hover{
+    background-color: #000;
+}
+.slider-zap-active{
+    background-color: #000;
+}
+.zap-mod{
+    width: 2.5%;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 30px;
+}
+.zap-mod a{
+    color: #000;
+    text-decoration: none;
+}
+.zap-mod a:hover{
+    color: #000;
+    text-decoration: underline;
+}
+
+/*    border: 3px solid saddlebrown;*/

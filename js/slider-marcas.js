@@ -27,7 +27,6 @@ const counterMar = () => {
         contMar++;
         if(contZap == 0) contMar=0;
         setInterval(slideimageMarcas(contMar), 2000);
-        setInterval(setActiveMar(contMar), 2000);
     }
 }
 

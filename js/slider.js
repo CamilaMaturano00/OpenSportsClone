@@ -1,4 +1,4 @@
-let images = ['img/os-boca.jpg','img/kr5_bannerdesktop_ok.jpg','img/banner3.jpg'];
+let images = ['img/banner/os-boca.jpg','img/banner/kr5_bannerdesktop_ok.jpg','img/banner/banner3.jpg'];
 
 //Elemento para cargar el slide
 let slider = document.getElementById("slider-js");
@@ -33,8 +33,8 @@ const counter = () => {
     if(active){
         cont++;
         if(cont>=images.length) cont=0;
-        setInterval(slideImage(cont), 2000);
-        setInterval(setActive(cont), 2000);
+        setInterval(slideImage(cont), 200);
+        setInterval(setActive(cont), 200);
     }
 }
 
@@ -43,7 +43,6 @@ const startInterval = ()=> setInterval(counter, 2000);
 
 //Iniciar el contador
 startInterval();
-
 
 const slideImage = (id) => {
     if(!active && !isNaN(id)){

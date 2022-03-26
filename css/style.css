@@ -182,7 +182,7 @@ nav ul{
 .slider-nav-active{
     background-color: #000;
 }
-.ctn-novedades h1{
+h1{
     font-size: 35px;
     text-align: center;
     font-weight: bold;
@@ -215,7 +215,6 @@ nav ul{
     margin-left: 10px;
     background: #D6D6D6 ;
     border-radius: 50%;
-
 }
 .slider-zap:hover{
     background-color: #000;
@@ -242,16 +241,14 @@ nav ul{
     width: 100%;
     display: block;
     margin-top: 40px;
-}
-.banner div{
-    margin-left: 50px;
+    margin-left: 25px;
 }
 .banner img{
-    margin: 0 auto;
-    width: 47%;
-    margin-right: 25px;
+    width: 48%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 0px;
 }
-/*    border: 3px solid saddlebrown;*/
 /*Marcas*/
 .slider-marcas{
     width: 92%;
@@ -266,30 +263,94 @@ nav ul{
     transition: all .5s;
 
 }
-.slider_navigation_marcas{
+.slider_img_marcas{
+    padding: 20px 20px;
+    margin-left: 20px;
+}
+/*Promociones*/
+.promociones{
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.promociones img{
+    width: 33%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+/* Seccion ropa*/
+.slider-ropa{
+    margin-top: 30px;
+
+    overflow: hidden;
+}
+.slider_images_ropa{
+    width: 100%;
+    top: 20px;
     position: relative;
-    bottom: 25px;
-    height: 20px;
-    width: 10%;
+    left: 0px;
+    transition: all .5s;
+}
+.slider-ronav{
+
     margin: 1em auto;
     display: flex;
     justify-content: center;
 }
-
-.slider-nav-marcas{
+.slider-rop{
     width: 10px;
     height: 10px;
-    margin-left: 5px;
-    background: #D6D6D6 ;
+    margin-left: 10px;
+    background: #992a2a ;
     border-radius: 50%;
 }
-.slider-nav-marcas:hover{
+.slider-rop:hover{
     background-color: #000;
 }
-.slider-nav-marcas-active{
+.slider-rop-active{
     background-color: #000;
 }
-.slider_img_marcas{
-    padding: 20px 20px;
-    margin-left: 20px;
+.ropa-mod{
+    display: inline-block;
+    text-align: center;
+    padding: 10px 30px;
+}
+.ropa-mod img{
+    width: 225px;
+}
+.ropa-mod a{
+    color: #000;
+    text-decoration: none;
+}
+.ropa-mod a:hover{
+    color: #000;
+    text-decoration: underline;
+}
+/*Estilos*/
+.cnt-estilos{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.cnt-estilos div {
+    display: inline-block;
+
+    margin-left: 2.5%;
+}
+.cnt-estilos div img{
+    width: 24%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+/*    border: 3px solid saddlebrown;*/
+
+.newsletter{
+    height: 110px;
+    background: #191919;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+}
+.newsletter div{
+    text-align: center;
+
 }

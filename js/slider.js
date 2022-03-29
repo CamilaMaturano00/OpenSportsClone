@@ -49,7 +49,6 @@ const slideImage = (id) => {
         cont=id;
         setActive(id);
     }
-    
     slider.style.left = "-" + id + "00%";
 }
 

@@ -189,43 +189,31 @@ h1{
 
 /* Slider de modelos de zatillas*/
 .slider-mod{
-    width: 100%;
+    max-width: 95%;
     margin: auto;
     overflow: hidden;
 }
 .slider_images_modelos{
-    width: 100%;
     top: 20px;
     position: relative;
     left: 0px;
     transition: all .5s;
 }
 .slider_zapatillas{
-    height: 20px;
-    width: fit-content;
     margin: 1em auto;
     display: flex;
     justify-content: center;
     
 }
 .slider-zap{
-    width: 10px;
-    height: 10px;
-    margin-left: 10px;
-    background: #D6D6D6 ;
-    border-radius: 50%;
-}
-.slider-zap:hover{
-    background-color: #000;
-}
-.slider-zap-active{
-    background-color: #000;
-}
-.zap-mod{
-    width: 2.5%;
     display: inline-block;
     text-align: center;
-    padding: 10px 30px;
+    
+}
+.zap-mod{
+    padding: 10px 5px;
+    display: inline-block;
+    text-align: center;
 }
 .zap-mod a{
     color: #000;
@@ -235,6 +223,7 @@ h1{
     color: #000;
     text-decoration: underline;
 }
+
 /*Banners*/
 .banner{
     display: flex;
@@ -350,7 +339,6 @@ h1{
     text-align: center;
     border-radius: 3px;
     font-weight: 700;
-    
 }
 .news a:hover{
     color: #333;
@@ -405,7 +393,6 @@ footer {
     margin-left: 30px;
 
 }
-
 .legales{
     border-color: #ddd;
     color: #808080;
@@ -430,6 +417,66 @@ footer {
     text-transform: none;
 }
 .copyright{
+    order: 0;
     padding: 0;
     margin: 0;
 }
+
+@media screen and (max-width: 500px){
+    .slider{
+        width: 100%;
+    }
+    .slider-nav{
+        width: 8px;
+        height: 8px;
+    }
+    .zap-mod a{
+        font-size: 13px;
+    }
+
+    .banner img,.promociones img,.cnt-estilos div img {
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .news span{
+        display: block;
+        font-size: 15px;
+        line-height: 3;
+    }
+    .news a{
+        margin-left: 60px;
+        padding: 10px 90px;
+    }
+    .footer{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        font-size: 14px;
+    }
+    .footer div{
+        width: 100%;
+    }
+    .ayuda{
+        max-width: 100%;
+        font-weight: bold;
+    }
+    .icon div{
+        width: 100%;
+        text-align:left;
+    }
+    .leg{
+        display: flex;
+        flex-direction: column;
+    }
+    .legales span{
+        display: block;
+        margin-bottom: 10px;
+        margin-right: 15px;
+    }
+    .copyright{
+        order: 5;
+        padding-top: 20px;
+    }
+}
+
